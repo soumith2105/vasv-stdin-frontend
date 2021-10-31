@@ -6,11 +6,12 @@
     "private": "true",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/soumith2105/the-vasv-deets.git"
+        "url": "git+https://github.com/soumith2105/vasv-stdin-frontend"
     },
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "prepare": "husky install",
         "start": "next start",
         "lint": "eslint src --fix && stylelint src/styles/ --fix",
         "test": "jest",
